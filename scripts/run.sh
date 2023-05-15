@@ -1,0 +1,2 @@
+python main.py --data_dir data_sample/VUA --task_name sample --model_type MELBERT_GAT --class_weight 3 --bert_model roberta-base --num_train_epoch 3 --train_batch_size 8 --learning_rate 3e-5 --warmup_epoch 2
+#python main.py --data_dir data/VUA20 --task_name vua20 --dataset_name vua20 --model_type MELBERT_GAT --class_weight 3 --bert_model roberta-base --num_train_epoch 3 --train_batch_size 32 --learning_rate 3e-5 --warmup_epoch 2
